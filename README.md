@@ -1,11 +1,11 @@
-About turn_by_turn
-==================
+About turn_by_turn-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/turn_by_turn-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pylhc/turn_by_turn
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/turn_by_turn-feedstock/blob/main/LICENSE.txt)
 
 Summary: Read and write turn-by-turn measurement files from different particle accelerator formats.
 
