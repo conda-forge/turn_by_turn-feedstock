@@ -21,12 +21,13 @@ requirements:
     - hatchling
     - pip
   run:
+    - python >={{ python_min }}
     - numpy >=1.24
     - scipy >=1.5
     - pandas >=2.1
-    - python >={{ python_min }}
     - sdds >=0.4
     - h5py >=2.9
+    - tfs-pandas >=4.0
 
 test:
   imports:
