@@ -1,5 +1,5 @@
 {% set name = "turn_by_turn" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/turn_by_turn-{{ version }}.tar.gz
-  sha256: 60dc8e1c2d933176a0fed0ab4d6bf032289b5877985d2bcd5669063a2c8e2df7
+  sha256: 58558d7f9ba913e856b8ac2863c0a2bcd5f7fde11ce3c41f54c0a70e000d1a4c
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,12 +21,13 @@ requirements:
     - hatchling
     - pip
   run:
+    - python >={{ python_min }}
     - numpy >=1.24
     - scipy >=1.5
     - pandas >=2.1
-    - python >={{ python_min }}
     - sdds >=0.4
     - h5py >=2.9
+    - tfs-pandas >=4.0
 
 test:
   imports:
