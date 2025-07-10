@@ -32,7 +32,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-turn_by_turn-green.svg)](https://anaconda.org/conda-forge/turn_by_turn) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/turn_by_turn.svg)](https://anaconda.org/conda-forge/turn_by_turn) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/turn_by_turn.svg)](https://anaconda.org/conda-forge/turn_by_turn) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/turn_by_turn.svg)](https://anaconda.org/conda-forge/turn_by_turn) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-turn__by__turn-green.svg)](https://anaconda.org/conda-forge/turn_by_turn) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/turn_by_turn.svg)](https://anaconda.org/conda-forge/turn_by_turn) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/turn_by_turn.svg)](https://anaconda.org/conda-forge/turn_by_turn) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/turn_by_turn.svg)](https://anaconda.org/conda-forge/turn_by_turn) |
 
 Installing turn_by_turn
 =======================
