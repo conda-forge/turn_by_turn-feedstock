@@ -1,5 +1,5 @@
 {% set name = "turn_by_turn" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/turn_by_turn-{{ version }}.tar.gz
-  sha256: b0529b9f52abcf4115e5bb177a1a679c29221757a3185509646c7379f31bd217
+  sha256: 90727a0485c688edbc6a364ba99a011f3d5bd38134f308c54c050b876d41f8ca
 
 build:
   number: 0
